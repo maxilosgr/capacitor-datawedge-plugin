@@ -5,9 +5,22 @@ Comprehensive Android implementation of Zebra DataWedge API for Capacitor applic
 ## Installation
 
 ```bash
-npm install github:maxilosgr/capacitor-datawedge-plugin#main/plugin
+npm install github:maxilosgr/capacitor-datawedge-plugin
 npx cap sync
 ```
+
+## Demo Application
+
+📱 **[Try the Demo App](https://github.com/maxilosgr/capacitor-datawedge-plugin-demo-app)**
+
+A comprehensive demo application is available that showcases all 35+ plugin methods with a complete UI implementation. The demo app provides:
+- Working examples of every API method
+- 5-tab interface for different feature categories
+- Real-time barcode scanning demonstration
+- Profile configuration examples
+- Complete source code for reference
+
+Clone and run: `git clone https://github.com/maxilosgr/capacitor-datawedge-plugin-demo-app.git`
 
 ## Features
 
@@ -148,6 +161,12 @@ Configure a DataWedge profile with:
 ## API Documentation
 
 See the [TypeScript definitions](src/definitions.ts) for complete API documentation.
+
+## Resources
+
+- 📱 [Demo Application](https://github.com/maxilosgr/capacitor-datawedge-plugin-demo-app) - Full working example with UI
+- 📖 [DataWedge Documentation](https://techdocs.zebra.com/datawedge/latest/guide/about/) - Official Zebra docs
+- 🐛 [Report Issues](https://github.com/maxilosgr/capacitor-datawedge-plugin/issues) - Bug reports and feature requests
 
 ## Developer
 
