@@ -1,17 +1,8 @@
 {
-  "name": "capacitor-datawedge",
-  "version": "1.0.0",
-  "description": "Capacitor plugin for DataWedge integration on Zebra devices",
-  "main": "dist/esm/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
-  "unpkg": "dist/umd/capacitor-datawedge.umd.js",
-  "files": [
-    "dist/",
-    "android/",
-    "src/"
-  ],
-  "author": "Connect I.T",
+  "name": "capacitor-datawedge-plugin",
+  "version": "1.0.1",
+  "description": "Capacitor plugin for Zebra DataWedge - Complete Android implementation with 35+ API methods",
+  "author": "Connect I.T - Gregorios Machairidis",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,6 +12,18 @@
     "url": "https://github.com/maxilosgr/capacitor-datawedge-plugin/issues"
   },
   "homepage": "https://github.com/maxilosgr/capacitor-datawedge-plugin#readme",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "unpkg": "dist/umd/capacitor-datawedge.umd.js",
+  "files": [
+    "dist/",
+    "android/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,7 +31,12 @@
     "zebra",
     "datawedge",
     "barcode",
-    "scanner"
+    "scanner",
+    "rfid",
+    "symbol",
+    "motorola",
+    "android",
+    "scanning"
   ],
   "scripts": {
     "verify": "npm run verify:android",
