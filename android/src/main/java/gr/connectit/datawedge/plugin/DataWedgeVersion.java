@@ -1,4 +1,4 @@
-package com.sapstockcount.mobile.plugins;
+package gr.connectit.datawedge.plugin;
 
 import android.util.Log;
 

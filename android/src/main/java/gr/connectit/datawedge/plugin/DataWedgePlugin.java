@@ -1,4 +1,4 @@
-package com.sapstockcount.mobile.plugins;
+package gr.connectit.datawedge.plugin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,7 +14,7 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
-import com.sapstockcount.mobile.plugins.DataWedgeVersion.DataWedgeFeature;
+import gr.connectit.datawedge.plugin.DataWedgeVersion.DataWedgeFeature;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,7 +32,7 @@ public class DataWedgePlugin extends Plugin {
         "com.motorolasolutions.datawedge",
         "com.zebra.datawedge"
     };
-    private static final String SCAN_INTENT_ACTION = "com.sapstockcount.mobile.SCAN";
+    private static final String SCAN_INTENT_ACTION = "gr.connectit.datawedge.SCAN";
     
     private BroadcastReceiver scanReceiver;
     private BroadcastReceiver versionReceiver;
