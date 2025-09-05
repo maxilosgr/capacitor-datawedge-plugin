@@ -25,3 +25,9 @@ npm-debug.log*
 *.tmp
 tmp/
 temp/
+
+# npm authentication
+.npmrc
+
+# ESLint
+.eslintignore
